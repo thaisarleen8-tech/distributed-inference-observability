@@ -1,4 +1,5 @@
-from inference_observability import RequestEvent, summarize, CircuitBreaker
+from inference_observability import CircuitBreaker, RequestEvent, summarize
+
 
 def test_metrics():
     events = [RequestEvent("a", 10, True, 1), RequestEvent("b", 30, False, 2)]

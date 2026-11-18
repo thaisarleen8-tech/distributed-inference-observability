@@ -1,6 +1,6 @@
 from dataclasses import dataclass
-from enum import StrEnum
 from math import ceil
+
 
 @dataclass(frozen=True)
 class RequestEvent:
